@@ -1,0 +1,60 @@
+body {
+    font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+    margin: 2em;
+  }
+  
+  table {
+        width: 100%;
+        border-collapse: collapse;
+        border: 2px solid #800080;
+        table-layout: fixed;
+      }
+  
+  th, td {
+        padding: 10px;
+        text-align: center;
+      }
+  
+   th {
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5));
+        font-family: 'Rock Salt', cursive;
+        font-size: 12px;
+      border: 2px solid #800080;
+     color: white;
+     text-align: left;
+     font-weight: bolder;
+     padding: 20px;
+     background-image: url('https://cdn.glitch.me/8b1beacc-937c-4072-93d6-4ae825ab1a7a%2Fleopardskin.jpg')
+      }
+  
+   tr:nth-child(odd) {
+        background-color: #ff33cc;
+      }
+  
+   tr:nth-child(even) {
+        background-color: #e495e4;
+    background-image: url('https://cdn.glitch.me/8b1beacc-937c-4072-93d6-4ae825ab1a7a%2Fnoise.png') 
+      }
+  
+    td:first-child {
+    font-weight: bold;
+  }
+  
+  tbody {
+        background-image:  linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5));
+        background-size: cover;
+     border: 2px solid #800080;
+      }
+  
+  td{
+    text-transform: capitalize;
+    font-size: 0.7rem;
+  }
+  .total{
+    text-align: right;
+  }
+  .bottom caption {
+    caption-side: start;
+    font-family: 'Rock Salt', cursive;
+    text-align: right;
+  }
